@@ -4,6 +4,11 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   background-color: #B4E4E6;
   color:  #453D3D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px
+ 
   
 }
 
@@ -24,6 +29,23 @@ h1{
   font-size: 50px;
 }
 
+.all-instructions {
+  display: flex;
+  justify-content: space-around
+}
+
+.instruction {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
