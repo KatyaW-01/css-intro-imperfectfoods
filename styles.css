@@ -31,7 +31,8 @@ h1{
 
 .all-instructions {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+  padding: 20px
 }
 
 .instruction {
